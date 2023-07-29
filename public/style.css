@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.ttf') format('ttf')
+  }
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting-content {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.start-btn {
+    border-radius: 20px;
+    background: #CCD3F0;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.start-btn:hover{
+    background: #D5DBF6;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.back-button{
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+a:hover{
+    color:grey
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    min-height: 75vh;
+}
+
+input[type="text"] {
+    background: rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 800px;
+    height: 50px;
+    border: 0px;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+button {
+    border-radius: 20px;
+    background: #CCD3F0;
+    font-weight: 500;
+    font-size: 25px;
+    border: 0px;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+button:hover{
+    background: #D5DBF6;
+}
+
+.error-content{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}

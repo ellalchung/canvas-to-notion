@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Master List</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        body {background-image: url(images/form-background.png);}
+    </style>
+</head>
+
+<body>
+    <div class = "form-wrapper">
+        <div class="back-button">
+            <a href="/">← back</a>
+        </div>
+            
+        <div class="form-content">
+            <form action="/submit-cal-link" method="POST">
+                <div>
+                    <label for="title">canvas calendar link</label> 
+                </div>
+                <div>
+                    <input name="link" type="text" required>
+                </div>
+                <div>
+                    <button type="submit">integrate</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
