@@ -22,7 +22,8 @@ app.get('/submit-cal-link', (req, res) => {
 })
 
 app.post('/submit-cal-link', (req, res) => {
-    ical.parseAssignments(req.body.link);
+        ical.parseAssignments(req.body.link);
+        res.render('success');
 })
 
 app.use((req, res) => {

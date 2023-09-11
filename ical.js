@@ -21,7 +21,7 @@ parseAssignments = async(url) => {
                 dueDate = year + "-" + month + "-" + day;
 
                 // create the page in the database
-                notionMod.createAssignment({name: assignmentName, course: courseName, date: dueDate, databaseID: databaseID})
+                const createAssignment = await notionMod.createAssignment({name: assignmentName, course: courseName, date: dueDate, databaseID: databaseID})
             }
         };
     } catch(error){
